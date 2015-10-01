@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Secure Image Uploadr</title>
+	<script src="Crypto.js"></script>
+	<script src="_.js"></script>
+	<script src="_Utility.js"></script>
+	<link rel="stylesheet" href="_.css" />
+</head>
+<body>
+	<div>
+		<h1>Upload a scaled image with XMP metadata</h1>
+	</div>
+	<form>
+		<div id="putBytesHere">Bytes will go here</div>
+		<div class="justifFootprint" id="justifFootprint">
+			<div class="justifMargin">
+				<div class="justifShadow" id="justifShadow">
+					<a href="#" onclick="justifImgClick();">
+						<div class="justifFrame">
+							<img id="justifThumb" src="_images/justif_icon.png"></img>
+							<input id="justifFileInput" type="file" accept="image/*" capture="camera" onchange="handleJustif(event);" />
+							<input id="justifInput" type="hidden" name="justif" />
+							<input id="justifIsVisible" type="hidden" name="justifIsVisible" />
+							<input id="justifIsObligatoire" type="hidden" name="justifIsObligatoire" />
+							<div class="mask50" id="justifLoading" onclick="absorbIfActive(event);">
+								<div class="ajaxloader"></div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</form>
+</body>
+</html>

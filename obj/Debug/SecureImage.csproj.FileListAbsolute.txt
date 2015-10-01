@@ -1,0 +1,5 @@
+C:\dev\NotilusTNE\Sources\_Projets non versionnés\Etudes-Proto\SecureImage\SecureImage\bin\SecureImage.dll
+C:\dev\NotilusTNE\Sources\_Projets non versionnés\Etudes-Proto\SecureImage\SecureImage\bin\SecureImage.pdb
+C:\dev\NotilusTNE\Sources\_Projets non versionnés\Etudes-Proto\SecureImage\SecureImage\obj\Debug\SecureImage.csprojResolveAssemblyReference.cache
+C:\dev\NotilusTNE\Sources\_Projets non versionnés\Etudes-Proto\SecureImage\SecureImage\obj\Debug\SecureImage.dll
+C:\dev\NotilusTNE\Sources\_Projets non versionnés\Etudes-Proto\SecureImage\SecureImage\obj\Debug\SecureImage.pdb

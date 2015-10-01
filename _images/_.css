@@ -1,0 +1,51 @@
+﻿.mask50 {
+    position:absolute;
+    top:0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    display:none;
+}
+/*Footprint, plus petit que le contenu, pour moins impacter les choses autour*/
+.justifFootprint {
+    float: right;
+    position: relative;
+    width: 83px;
+    height: 85px;
+    /*margin-left: 13px;*/
+    margin-top: 14px;
+}
+.justifMargin {
+    position:absolute;
+    right:0px;
+    top:0px;
+    width: 83px;
+    height: 98px;
+    background-color: white;
+}
+.justifShadow {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 70px;
+    height: 90px;
+    background-color: #e5e5e5;
+    overflow:hidden;
+    transition: height 500ms ease;
+}
+.justifFrame {
+    position:absolute;
+    top:-4px;
+    right:4px;
+    border: 1px solid #ccc;
+    width:100%;
+    height:100%;
+    background-color:white;    
+}
+.justifFrame img{
+    width:100%;
+    height:100%;
+}
+.justifFrame input[type="file"] {
+    display: none;
+}
